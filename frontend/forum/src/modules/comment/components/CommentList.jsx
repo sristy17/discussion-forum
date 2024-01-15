@@ -1,8 +1,6 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-import React from "react";
-
 import { Box, Typography } from "@mui/material";
 import moment from "moment";
 import { useDispatch, useSelector } from "react-redux";
