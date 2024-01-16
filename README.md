@@ -1,6 +1,6 @@
-# React Forum
+# Discussion Forum
 
-Welcome to React Forum Project, a cutting-edge discussion forum built with a powerful technology stack that includes React for the frontend, Context API for seamless state management, Node.js for a robust backend, and MongoDB as the database solution. This project is meticulously crafted to offer users a modern and engaging platform for diverse discussions across a multitude of topics.
+Welcome to Discussion Forum Project, a cutting-edge forum built with a powerful technology stack that includes React for the frontend, Context API for seamless state management, Node.js for a robust backend, and MongoDB as the database solution. This project is meticulously crafted to offer users a modern and engaging platform for diverse discussions across a multitude of topics.
 
 ## Table of Contents
 
@@ -15,28 +15,28 @@ Welcome to React Forum Project, a cutting-edge discussion forum built with a pow
 
 ## Introduction
 
-React Forum redefines the experience of online discussions by combining the efficiency of React's frontend capabilities with the flexibility of Node.js backend and the scalability of MongoDB. Whether you are a seasoned contributor or a newcomer looking to explore various communities, React Forum provides an intuitive interface and feature-rich environment to foster meaningful conversations. This project is designed to be easy to use and participate in different discussion communities.
+Discussion Forum redefines the experience of online discussions by combining the efficiency of React's frontend capabilities with the flexibility of Node.js backend and the scalability of MongoDB. Whether you are a seasoned contributor or a newcomer looking to explore various communities, React Forum provides an intuitive interface and feature-rich environment to foster meaningful conversations. This project is designed to be easy to use and participate in different discussion communities.
 
 ## Features
 
 - **Responsive Design:** 
-Enjoy a seamless experience across different devices with our forum's responsive design. Whether you're accessing it from your desktop, tablet, or smartphone, React Forum adapts to provide an optimal viewing and interaction experience.
+Enjoy a seamless experience across different devices with our forum's responsive design. Whether you're accessing it from your desktop, tablet, or smartphone, Discussion Forum adapts to provide an optimal viewing and interaction experience.
 - **Context API for State Management:** 
-Efficient state management is at the heart of React Forum, thanks to the implementation of React's Context API. This ensures a smooth and responsive user interface while managing the complex state of the application seamlessly.
+Efficient state management is at the heart of Discussion Forum, thanks to the implementation of React's Context API. This ensures a smooth and responsive user interface while managing the complex state of the application seamlessly.
 - **User Authentication:** 
 Create a personalized account, log in securely, and dive into discussions with ease. React Forum prioritizes user authentication to ensure a safe and personalized environment for contributors.
 - **Comments:** 
 Users can comment on various discussions once they are signed in.Engage with the community, share insights, and build connections.
 - **Real-time Updates:**
-Stay up-to-date with real-time updates on discussions, comments, and community activities. React Forum leverages the power of dynamic updates to ensure users are informed about the latest interactions as they happen.
+Stay up-to-date with real-time updates on discussions, comments, and community activities. It leverages the power of dynamic updates to ensure users are informed about the latest interactions as they happen.
 
 ## Application Screenshots
 
-![Alt text](0.png)
+![Alt text](<Screenshot 2024-01-17 002138.png>)
 
-![Alt text](Learn-How-to-Create-Simple-React-Form-Elements-small.webp)
+![Alt text](<Screenshot 2024-01-17 002204.png>)
 
-![Alt text](rdj7dyfr6t1eqipx2ih1.png)
+![Alt text](<Screenshot 2024-01-17 002242.png>)
 
 ## Prerequisites
 
