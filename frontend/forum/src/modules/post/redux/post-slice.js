@@ -66,5 +66,7 @@ const postSlice = createSlice({
       });
   },
 });
+
+
 export const { resestCreatePostStatus } = postSlice.actions;
 export default postSlice.reducer;
