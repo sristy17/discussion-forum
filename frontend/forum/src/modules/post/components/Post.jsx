@@ -47,7 +47,7 @@ const Post = ({ post }) => {
       </div>
       <div>
         <Link
-          to={`/discuss/${post.slug}`}
+          to={`/discuss/${post.slug}`} state={{description: post.text}} 
           style={{ textDecoration: "none", color: "black" }}
         >
           <Typography variant="h5" component="div">
