@@ -58,7 +58,6 @@ const PostList = () => {
               variant="contained"
               color="primary"
               size="small"
-              sx={{ justifyContent: "end" }}
             >
               post
             </Button>
