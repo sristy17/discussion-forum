@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { TextField, Button, Box } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
 import { createPost, resestCreatePostStatus } from "../redux/post-slice";
