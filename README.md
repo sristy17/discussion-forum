@@ -32,11 +32,11 @@ Stay up-to-date with real-time updates on discussions, comments, and community a
 
 ## Application Screenshots
 
-![Home Page]()
-*Caption: The homepage showcasing various discussion topics.*
+![Alt text](0.png)
 
-![Discussion Page](/)
-*Caption: A discussion page with user comments and interactions.*
+![Alt text](Learn-How-to-Create-Simple-React-Form-Elements-small.webp)
+
+![Alt text](rdj7dyfr6t1eqipx2ih1.png)
 
 ## Prerequisites
 
