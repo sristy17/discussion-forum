@@ -7,7 +7,6 @@ import moment from "moment";
 
 const Post = ({ post }) => {
   // const [voteCount, setVoteCount] = useState(post.upvotes);
-
   const handleUpvote = () => {
     setVoteCount(voteCount + 1);
   };
@@ -52,6 +51,9 @@ const Post = ({ post }) => {
         >
           <Typography variant="h5" component="div">
             {post.title}
+          </Typography>
+          <Typography variant="body1" component="div">
+            {post.text}
           </Typography>
         </Link>
         <div

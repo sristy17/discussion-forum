@@ -63,7 +63,6 @@ const Comment = () => {
         <Typography
           variant="h6"
           style={{
-            fontWeight: "bold",
             fontSize: "1.5em",
             marginTop: "1em",
           }}
@@ -77,7 +76,7 @@ const Comment = () => {
           placeholder="What are your thoughts?"
           style={{
             width: "100%",
-            height: "150px",
+            height: "80px",
             padding: "0.5em",
             marginTop: "0.5em",
             resize: "vertical",
