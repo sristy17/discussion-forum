@@ -44,7 +44,7 @@ const PostList = () => {
         })
       );
     } else {
-      notify.error("Please Login !!!");
+      navigate("/join");
     }
   };
   return (
