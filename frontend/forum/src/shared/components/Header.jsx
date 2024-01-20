@@ -41,7 +41,12 @@ const Header = () => {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography
+            variant="h4"
+            component="div"
+            sx={{ flexGrow: 1, cursor: "pointer" }}
+            onClick={() => navigate("/")}
+          >
             Brain Mentors Forum App
           </Typography>
           <Box sx={{ display: "flex", alignItems: "center" }}>
