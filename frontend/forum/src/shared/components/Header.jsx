@@ -45,13 +45,15 @@ const Header = () => {
             Brain Mentors Forum App
           </Typography>
           <Box sx={{ display: "flex", alignItems: "center" }}>
-            <Typography
-              onClick={() => navigate("/create")}
-              sx={{ color: "#fff", marginRight: "16px", cursor: "pointer" }}
-              style={{ fontWeight: "bold" }}
-            >
-              Submit
-            </Typography>
+            {state.user && (
+              <Typography
+                onClick={() => navigate("/create")}
+                sx={{ color: "#fff", marginRight: "16px", cursor: "pointer" }}
+                style={{ fontWeight: "bold" }}
+              >
+                Submit
+              </Typography>
+            )}
             <Box
               sx={{
                 bgcolor: "black",
