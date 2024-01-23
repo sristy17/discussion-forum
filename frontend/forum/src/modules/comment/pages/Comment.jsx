@@ -12,17 +12,16 @@ import {
   resetCommentOnPostStatus,
 } from "../redux/comment-slice";
 
-const Comment = ({props}) => {
+const Comment = ({ props }) => {
   const [comment, setComment] = useState("");
   const [description, setDescription] = useState("");
   const params = useParams();
   const dispatch = useDispatch();
   const state = useSelector((state) => state.comment);
   const user_state = useSelector((state) => state.user);
-  const location= useLocation()
+  const location = useLocation();
 
   useEffect(() => {
-    
     if (state.commentOnPostStatus === "failed") {
       notify.error("Comment on Post Failed");
     }
@@ -30,7 +29,7 @@ const Comment = ({props}) => {
       notify.success("Comment on Post Created SuccessFully!");
     }
     dispatch(resetCommentOnPostStatus());
-    setDescription(location.state.description)
+    setDescription(location.state.description);
   }, [state.commentOnPostStatus, dispatch]);
 
   const handleCommentChange = (event) => {
@@ -63,25 +62,23 @@ const Comment = ({props}) => {
           padding: "1em",
         }}
       >
-      <div>
-        <Card>
-        <Typography
-          variant="h6"
-          style={{
-            fontWeight: "bold",
-            fontSize: "1.5em",
-            marginTop: "1em",
-          }}
-        >
-          Description
-        </Typography>
-        <Typography variant="h6" component="div">
-        {
-          description
-        }
-        </Typography>
-        </Card>
-      </div>
+        <div>
+          <Card>
+            <Typography
+              variant="h6"
+              style={{
+                fontWeight: "bold",
+                fontSize: "1.5em",
+                marginTop: "1em",
+              }}
+            >
+              Description
+            </Typography>
+            <Typography variant="h6" component="div">
+              {description}
+            </Typography>
+          </Card>
+        </div>
         <Divider style={{ margin: "1em 0" }} />
         <Typography
           variant="h6"
