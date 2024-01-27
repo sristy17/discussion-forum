@@ -12,7 +12,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { getUserById } from "../../modules/user/redux/user-slice";
-
+import "../../../src/index.css"
 const Header = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -29,7 +29,7 @@ const Header = () => {
   };
 
   return (
-    <Container maxWidth="xl" sx={{ margin: "auto" }}>
+    <Container sx={{ margin: "auto"}}>
       <AppBar position="static">
         <Toolbar>
           <IconButton
@@ -47,8 +47,16 @@ const Header = () => {
             sx={{ flexGrow: 1, cursor: "pointer" }}
             onClick={() => navigate("/")}
           >
-            Brain Mentors Forum App
           </Typography>
+          <nav>
+          <ul>
+          <li><a href="#"><i class="fas fa-qrcode"></i>Brain</a></li>
+          <li><a href="#"><i class="fas fa-link"></i>Mentors</a></li>
+          <li><a href="#"><i class="fas fa-stream"></i>Forum</a></li>
+          <li><a href="#"><i class="fas fa-calendar-week"></i> App</a></li>
+          
+        </ul>
+        </nav>
           <Box sx={{ display: "flex", alignItems: "center" }}>
             {state.user && (
               <Typography
