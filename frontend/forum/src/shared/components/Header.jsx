@@ -50,11 +50,10 @@ const Header = () => {
           </Typography>
           <nav>
           <ul>
-          <li><a href="#"><i class="fas fa-qrcode"></i>Brain</a></li>
-          <li><a href="#"><i class="fas fa-link"></i>Mentors</a></li>
-          <li><a href="#"><i class="fas fa-stream"></i>Forum</a></li>
-          <li><a href="#"><i class="fas fa-calendar-week"></i> App</a></li>
-          
+          <li><a href="#">Brain</a></li>
+          <li><a href="#">Mentors</a></li>
+          <li><a href="#">Forum</a></li>
+          <li><a href="#">App</a></li>
         </ul>
         </nav>
           <Box sx={{ display: "flex", alignItems: "center" }}>
@@ -64,12 +63,16 @@ const Header = () => {
                 sx={{ color: "#fff", marginRight: "16px", cursor: "pointer" }}
                 style={{ fontWeight: "bold" }}
               >
-                Submit
               </Typography>
+             
             )}
+            <nav>
+              <ul>
+              <li><a href="/create">Submit</a></li>
+              </ul>
+            </nav>
             <Box
               sx={{
-                bgcolor: "black",
                 color: "white",
                 display: "flex",
                 alignItems: "center",
@@ -92,7 +95,10 @@ const Header = () => {
                   Logout
                 </Link>
               ) : (
-                <Link href="/join">Join</Link>
+                // <Link href="/join">Join</Link>
+                <ul>
+              <li class="join"><a href="/join">Join</a></li>
+              </ul>
               )}
             </Box>
           </Box>
