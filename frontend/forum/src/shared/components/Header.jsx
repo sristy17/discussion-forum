@@ -12,7 +12,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { getUserById } from "../../modules/user/redux/user-slice";
-
+import "../../../src/index.css"
 const Header = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -29,7 +29,7 @@ const Header = () => {
   };
 
   return (
-    <Container maxWidth="xl" sx={{ margin: "auto" }}>
+    <Container sx={{ margin: "auto"}}>
       <AppBar position="static">
         <Toolbar>
           <IconButton
@@ -47,8 +47,15 @@ const Header = () => {
             sx={{ flexGrow: 1, cursor: "pointer" }}
             onClick={() => navigate("/")}
           >
-            Brain Mentors Forum App
           </Typography>
+          <nav>
+          <ul>
+          <li><a href="#">Brain</a></li>
+          <li><a href="#">Mentors</a></li>
+          <li><a href="#">Forum</a></li>
+          <li><a href="#">App</a></li>
+        </ul>
+        </nav>
           <Box sx={{ display: "flex", alignItems: "center" }}>
             {state.user && (
               <Typography
@@ -56,12 +63,16 @@ const Header = () => {
                 sx={{ color: "#fff", marginRight: "16px", cursor: "pointer" }}
                 style={{ fontWeight: "bold" }}
               >
-                Submit
               </Typography>
+             
             )}
+            <nav>
+              <ul>
+              <li><a href="/create">Submit</a></li>
+              </ul>
+            </nav>
             <Box
               sx={{
-                bgcolor: "black",
                 color: "white",
                 display: "flex",
                 alignItems: "center",
@@ -84,7 +95,10 @@ const Header = () => {
                   Logout
                 </Link>
               ) : (
-                <Link href="/join">Join</Link>
+                // <Link href="/join">Join</Link>
+                <ul>
+              <li class="join"><a href="/join">Join</a></li>
+              </ul>
               )}
             </Box>
           </Box>
