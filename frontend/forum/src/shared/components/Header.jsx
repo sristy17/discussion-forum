@@ -8,6 +8,11 @@ import {
   Box,
   Link,
 } from "@mui/material";
+
+import InputLabel from '@mui/material/InputLabel';
+import FormControl from '@mui/material/FormControl';
+import NativeSelect from '@mui/material/NativeSelect';
+
 import MenuIcon from "@mui/icons-material/Menu";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -32,7 +37,7 @@ const Header = () => {
     <Container sx={{ margin: "auto"}}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton
+{/*           <IconButton
             size="large"
             edge="start"
             color="inherit"
@@ -40,7 +45,28 @@ const Header = () => {
             sx={{ mr: 2 }}
           >
             <MenuIcon />
-          </IconButton>
+          </IconButton> */}
+
+          <Box sx={{ minWidth: 120 }}>
+      <FormControl fullWidth>
+        <InputLabel variant="standard" htmlFor="uncontrolled-native">
+         
+        </InputLabel>
+        <NativeSelect
+          defaultValue={30}
+          inputProps={{
+            name: 'Home',
+            id: 'uncontrolled-native',
+          }}
+        >
+          <option value={10}> Home Page</option>
+          <option value={20}>About Us</option>
+          <option value={30}>Contact Us</option>
+        </NativeSelect>
+      </FormControl>
+    </Box>
+
+          
           <Typography
             variant="h4"
             component="div"
