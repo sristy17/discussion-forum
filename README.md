@@ -32,7 +32,11 @@ Stay up-to-date with real-time updates on discussions, comments, and community a
 
 ## Application Screenshots
 
-![Alt text](<Screenshot 2024-01-17 002138.png>)
+![Alt text](<Screenshot 2024-02-21 142143.png>)
+
+![Alt text](<Screenshot 2024-02-21 142341.png>)
+
+![Alt text](<Screenshot 2024-02-21 142409.png>)
 
 ![Alt text](<Screenshot 2024-01-17 002204.png>)
 
