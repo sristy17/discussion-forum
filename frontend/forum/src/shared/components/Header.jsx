@@ -13,7 +13,6 @@ import InputLabel from '@mui/material/InputLabel';
 import FormControl from '@mui/material/FormControl';
 import NativeSelect from '@mui/material/NativeSelect';
 
-
 import MenuIcon from "@mui/icons-material/Menu";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -66,8 +65,6 @@ const Header = () => {
         </NativeSelect>
       </FormControl>
     </Box>
-
-
           
           <Typography
             variant="h4"
