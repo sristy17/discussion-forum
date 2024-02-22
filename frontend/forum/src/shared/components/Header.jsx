@@ -65,7 +65,6 @@ const Header = () => {
         </NativeSelect>
       </FormControl>
     </Box>
-
           
           <Typography
             variant="h4"
